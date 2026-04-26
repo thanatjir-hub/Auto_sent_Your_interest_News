@@ -11,7 +11,7 @@ import google.generativeai as genai
 # ==========================================
 # 1. ดึงค่าตัวแปรตั้งค่าจาก GitHub Secrets
 # ==========================================
-rss_url = os.environ.get("RSS_URL", "https://medium.com/feed/tag/productivity")
+rss_url = os.environ.get("RSS_URL")
 API_KEY = os.environ.get("GEMINI_API_KEY")
 sender_email = os.environ.get("SENDER_EMAIL")
 receiver_email = os.environ.get("RECEIVER_EMAIL")
