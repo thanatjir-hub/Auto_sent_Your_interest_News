@@ -19,10 +19,12 @@
 | `RSS_URL` | ลิงก์ RSS ของเว็บข่าว (เช่น `https://techcrunch.com/feed/`) |
 | `GEMINI_API_KEY` | คีย์ AI ฟรีจาก [Google AI Studio](https://aistudio.google.com/) |
 | `SENDER_EMAIL` | อีเมล Gmail ของคุณ (ผู้ส่ง) |
-| `RECEIVER_EMAIL` | อีเมลปลายทาง (ผู้รับ) |
+| `RECEIVER_EMAIL` | อีเมลปลายทาง (ผู้รับ,หรือจะใส่เมล์เดียวกันกับผู้ส่งก็ไม่มีปัญหา) |
 | `APP_PASSWORD` | รหัสผ่านแอป 16 หลักจาก [Google Security](https://myaccount.google.com/security) |
 
 **เริ่มใช้งาน:** ไปที่แท็บ **Actions** > เลือก **Daily AI News Summarizer** > กดปุ่ม **Run workflow** (หรือรอให้ระบบรันเองตามเวลาที่ตั้งไว้) เช็กอีเมลได้เลย!
+
+
 
 **💡 ทริควิธีหาลิงก์ RSS (RSS_URL):**
 * **วิธีหาด้วยตัวเอง:** ลองพิมพ์ `/feed` หรือ `/rss` ต่อท้ายเว็บไซต์ข่าวที่คุณชอบ (เช่น `www.website.com/feed`) หรือมองหาไอคอน 📶 (RSS) บนหน้าเว็บนั้น
