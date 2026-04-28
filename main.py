@@ -3,6 +3,7 @@ import re
 import smtplib
 import feedparser
 import requests
+import time
 from bs4 import BeautifulSoup
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -72,7 +73,7 @@ except Exception as e:
 aggregated_news_text = ""
 for news in news_data:
     aggregated_news_text += f"Title: {news['title']}\nLink: {news['link']}\nSnippet: {news['contentSnippet']}\n--- \n\n"
-
+    time.sleep(15)
 # ==========================================
 # 4. ส่งให้ AI (Gemini) สรุปผล
 # ==========================================
